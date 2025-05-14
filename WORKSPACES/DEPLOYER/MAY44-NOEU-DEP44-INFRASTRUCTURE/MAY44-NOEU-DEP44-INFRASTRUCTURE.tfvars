@@ -243,4 +243,4 @@ application_configuration_deployment = true
 enable_rbac_authorization_for_keyvault = true
 
 # The parameter 'custom_random_id' can be used to control the random 3 digits at the end of the storage accounts and key vaults
-custom_random_id="244"
+custom_random_id="444"

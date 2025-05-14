@@ -1,6 +1,5 @@
 APPLICATION_CONFIGURATION_NAME=may44noeuapc444
 MSI_ID=0f0f3c48-11a7-4f45-a4d8-665eb9048c8b
-ARM_SUBSCRIPTION_ID=d6c8e3b6-467e-452e-97c9-49d9de9e37da
 deployer_random_id=444
 DEPLOYER_KEYVAULT=MAY44NOEUDEP44user444
 HAS_WEBAPP=false
@@ -10,3 +9,4 @@ CONTROL_PLANE_NAME=MAY44-NOEU-DEP44
 tfstate_resource_id=/subscriptions/d6c8e3b6-467e-452e-97c9-49d9de9e37da/resourceGroups/MAY44-NOEU-SAP_LIBRARY/providers/Microsoft.Storage/storageAccounts/may44noeutfstate444
 library_random_id=444
 step=3
+ARM_SUBSCRIPTION_ID=d6c8e3b6-467e-452e-97c9-49d9de9e37da

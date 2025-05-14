@@ -5,10 +5,10 @@ environment="MAY44"
 location="northeurope"
 
 # Defines the DNS suffix for the resources
-dns_label = "azure.may44.sapcontoso.com"
+dns_label = "azure.may444.sapcontoso.com"
 
 # use_private_endpoint defines that the storage accounts and key vaults have private endpoints enabled
 use_private_endpoint = true
 
 # The parameter 'custom_random_id' can be used to control the random 3 digits at the end of the storage accounts and key vaults
-custom_random_id="244"
+custom_random_id="444"

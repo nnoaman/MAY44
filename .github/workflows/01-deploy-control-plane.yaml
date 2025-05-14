@@ -225,12 +225,6 @@ jobs:
           TF_VAR_use_spn: ${{ env.USE_MSI }}
           USE_MSI: ${{ env.USE_MSI }}
 
-      - name: Get Web App Variables
-        id: get_webapp_variables
-        run: |
-          bash ./sap-automation/deploy/scripts/pipeline_scripts/01-webapp-variables.sh
-        env:
-          CONTROL_PLANE_NAME: ${{ inputs.control_plane_name }}
   deploy-web-app:
     name: Deploy SAP Configuration Web App
     needs: [prepare-deployer, deploy-control-plane]

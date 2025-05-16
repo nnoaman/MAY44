@@ -105,7 +105,7 @@ jobs:
           gh secret set ARM_CLIENT_SECRET --body "${{ secrets.AZURE_CLIENT_SECRET }}" --env ${workload_config_environment_name}
           gh secret set ARM_SUBSCRIPTION_ID --body "${{ secrets.AZURE_SUBSCRIPTION_ID }}" --env ${workload_config_environment_name}
           gh secret set ARM_TENANT_ID --body "${{ secrets.AZURE_TENANT_ID }}" --env ${workload_config_environment_name}
-          gh secret set ARM_OBJECT_ID --body "${{ secrets.AZURE_OBJECT_ID }}" --env ${workload_config_name}
+          gh secret set ARM_OBJECT_ID --body "${{ secrets.AZURE_OBJECT_ID }}" --env ${workload_config_environment_name}
 
           # Set variables
           gh variable set APPLICATION_CONFIGURATION_NAME --body "${{ vars.APPLICATION_CONFIGURATION_NAME }}" --env ${workload_config_environment_name}
